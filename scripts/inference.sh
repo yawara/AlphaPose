@@ -5,7 +5,7 @@ CKPT=$2
 VIDEO=$3
 OUTDIR=${4:-"./examples/res"}
 
-python scripts/demo_inference.py \
+python3 scripts/demo_inference.py \
     --cfg ${CONFIG} \
     --checkpoint ${CKPT} \
     --video ${VIDEO} \
